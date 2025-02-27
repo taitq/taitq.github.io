@@ -1,26 +1,17 @@
-title: example.com
-description: "Satellite - jekyll blog theme"
+title: CaoTien
+description: "Hello World"
 logo_img: "/assets/img/favicon.webp"
-profile_img: "/assets/img/profile.webp"
+profile_img: "/assets/img/profile.jpeg"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: trqt2003@gmail.com
+github_username: taitq
+twitter_username: Caotien010
+instagram_username: trqt2003
+linkedin_username: tai-tran-quang-078b2b210
+facebook_username: tai.tranquang.1293
 
-# External API
-giscus_repo: "byanko55/jekyll-theme-satellite"
-giscus_repoId: "R_kgDOJ6fqWg"
-giscus_category: "Q&A"
-giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
-goatcounter_code: byanko77
-google_analytics:
 
-# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
-# Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
 baseurl:
 
 # Build settings
@@ -46,6 +37,8 @@ defaults:
     values:
       layout: "page"
       date: "1900-01-01"
+      comments: true   # change to false to default to comments off site-wide
+      published: true  # default to published
 
 # Markdown newline activator 
 kramdown:
