@@ -23,16 +23,18 @@ Phần này thì mình sẽ note lại những kiến thức về các thành ph
 - Sử dụng thành thạo các công cụ enumeration như: Powerview, ADModule, Sharphound, ...
 - Các kỹ thuật enumeration các thông tin bao gồm như: GPO, ACL, Trust, ...
 - Các kỹ thuật Bypass AV
-## 3. Attack techofniques  AD
-- Các kỹ thuật để Local Privilege
-- Các kỹ thuật tấn công Kerberos: Golden ticket, Delegation,...
-- Các kỹ thuật Lateral Movement: Pas the ticket, DCSync, ...
+## 3. Attack techniques AD
+- Các kỹ thuật Local Privilege Escalation
+- Các kỹ thuật Lateral Movement
+- Các kỹ thuật Domain Escaltion
+- Các kỹ thuật Domain Persitence
+- Các kỹ thuật Cross Forest Attack
 ## 4. Detection & Defense: 
 Phần này mình chưa có kiến thức gì nên mình sẽ học đã rồi bổ sung vào các post sau
 # Topology of the exam
 _____________________________
 ## 1. Topology của Lab Practice
-- Topo các forest, domain và machine: 
+- Topo các forest, domain và machine: bao gồm **8 forest và 22 machine**
 ![Lab Diagram](../../../assets/img/CRTE/LabDiagram.png)
 - Topo các hướng tấn công trong Lab Practice
 ![All AttackFlow](../../../assets/img/CRTE/All_AttackFlow.png)
